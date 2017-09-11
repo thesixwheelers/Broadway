@@ -6,11 +6,15 @@ html, .design {
   text-align: center;
   background-color: white;
 }
+<<<<<<< HEAD
 /* NOTE: Specific page styles */
+=======
+>>>>>>> 3f32c542032744cc2b68e28bd89815133f1ea7ed
 h1 {
   font-weight: bold;
   font-size: 70px;
   color: white;
+<<<<<<< HEAD
 }
 h3 {
   font-size: 23px;
@@ -20,6 +24,20 @@ p {
   font-weight: normal;
 }
 a {
+=======
+}
+h3 {
+  font-size: 23px;
+}
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.top_nav, .design, footer {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+}
+.btn-nav .top_nav, .design, a {
+>>>>>>> 3f32c542032744cc2b68e28bd89815133f1ea7ed
   color: white;
   font-size: 18px;
 }
@@ -35,7 +53,10 @@ footer {
 .copywrite {
   font-size: 11px;
 }
+<<<<<<< HEAD
 /* NOTE: Background images */
 .top_nav, .design, footer {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
+=======
+>>>>>>> 3f32c542032744cc2b68e28bd89815133f1ea7ed
