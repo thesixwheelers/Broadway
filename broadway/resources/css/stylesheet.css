@@ -1,14 +1,38 @@
 html, .design {
-  font: Helvetica;
+  font-family: Helvetica;
   font-weight: bold;
   align-content: center;
   text-align: center;
   background-color: white;
 }
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
+}
+h3 {
+  font-size: 23px;
+}
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
 .top_nav, .design, footer {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
-.btn-nav .top_nav, .design {
+.btn-nav .top_nav, .design, a {
   color: white;
   font-size: 18px;
+}
+footer, #p {
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
+}
+footer {
+  text-align: left;
+  color: white;
+}
+.copywrite {
+  font-size: 11px;
 }
