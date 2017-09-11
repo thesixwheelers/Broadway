@@ -1,14 +1,41 @@
+/* NOTE: General page styles */
 html, .design {
-  font: Helvetica;
+  font-family: Helvetica;
   font-weight: bold;
   align-content: center;
   text-align: center;
   background-color: white;
 }
-.top_nav, .design, footer {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+/* NOTE: Specific page styles */
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  color: white;
 }
-.btn-nav .top_nav, .design {
+h3 {
+  font-size: 23px;
+}
+p {
+  font-size: 14px;
+  font-weight: normal;
+}
+a {
   color: white;
   font-size: 18px;
+}
+footer, #p {
+  color: white;
+  font-size: 11px;
+  background-color: dimgray;
+}
+footer {
+  text-align: left;
+  color: white;
+}
+.copywrite {
+  font-size: 11px;
+}
+/* NOTE: Background images */
+.top_nav, .design, footer {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
 }
